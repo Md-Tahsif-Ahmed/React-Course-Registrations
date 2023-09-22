@@ -3,64 +3,64 @@
       "image": "https://i.ibb.co/b24kGDK/1.png",
       "course_title": "Introduction to C Programming",
       "description": "A beginner-friendly course that covers the fundamentals of programming using the C programming language.",
-      "price": 8499.99,
-      "credit_hours": 45
+      "price": 8499,
+      "credit_hours": 1
     },
     {
       "image": "https://i.ibb.co/1bCJd64/3.png",
       "course_title": "Introduction to Algorithms",
       "description": "Dive into the world of algorithms and data structures. This course will equip you with the knowledge to design and analyze efficient algorithms.",
-      "price": 12699.99,
-      "credit_hours": 60
+      "price": 12699,
+      "credit_hours": 2
     },
     {
       "image": "https://i.ibb.co/W0Fn1Lk/2.png",
       "course_title": "Introduction to C++ for DSA",
       "description": "Learn C++ programming with a focus on its applications in data structures and algorithms. Master the key concepts needed for solving complex computational problems.",
-      "price": 10999.99,
-      "credit_hours": 45
+      "price": 10999,
+      "credit_hours": 10
     },
     {
       "image": "https://i.ibb.co/fn62Q2v/7.png",
       "course_title": "Basic Data Structures",
       "description": "Get started on your journey into the world of machine learning and artificial intelligence. This course will guide you through the fundamentals and help you build predictive models.",
-      "price": 15499.99,
-      "credit_hours": 60
+      "price": 15499,
+      "credit_hours": 5
     },
     {
       "image": "https://i.ibb.co/Pz7vfN8/4.png",
       "course_title": "Introduction to OOP Python",
       "description": "Explore the principles of object-oriented programming (OOP) using the Python programming language. This course will cover key concepts in OOP and their practical applications.",
-      "price": 10399.99,
-      "credit_hours": 45
+      "price": 10399,
+      "credit_hours": 5
     },
     {
       "image": "https://i.ibb.co/hRPJ0N5/6.png",
       "course_title": "Software Engineering",
       "description": "Gain expertise in software engineering practices, including software design patterns and project management. Learn how to develop high-quality, maintainable software.",
-      "price": 13999.99,
-      "credit_hours": 60
+      "price": 13999,
+      "credit_hours": 2
     },
     {
       "image": "https://i.ibb.co/S0mKC2W/9.png",
       "course_title": "AWS, Cloud Computing",
       "description": "Delve into the realm of cloud computing with a focus on Amazon Web Services (AWS). Discover the core concepts and services that make cloud computing an essential skill.",
-      "price": 12699.99,
-      "credit_hours": 45
+      "price": 12699,
+      "credit_hours": 5
     },
     {
       "image": "https://i.ibb.co/6RB8YNG/5.png",
       "course_title": "Database (MySQL)",
       "description": "Learn about relational databases and master MySQL, a popular database management system. Acquire the skills needed to design, query, and manage databases effectively.",
-      "price": 14299.99,
-      "credit_hours": 60
+      "price": 14299,
+      "credit_hours": 5
     },
     {
       "image": "https://i.ibb.co/9tcm519/8.png",
       "course_title": "Problem-Solving Part",
       "description": "Sharpen your problem-solving skills and embark on the journey of creating mobile apps for both iOS and Android platforms. This course covers app design and development essentials.",
-      "price": 9349.99,
-      "credit_hours": 45
+      "price": 9349,
+      "credit_hours": 2
     }
   ]
   
