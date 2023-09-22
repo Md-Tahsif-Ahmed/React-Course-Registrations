@@ -17,22 +17,20 @@ const App = () => {
       const newCredit = addCredit + course_data.credit_hours;
       if (newCredit <= 20) {
         setAddCredit(newCredit);
-        const newCreditRemaining = 100 - addCredit;
+        const newCreditRemaining = 20 - addCredit;
         if(newCreditRemaining != 0){
           setCreditRemaining(newCreditRemaining);
          }
 
       }
 
-     
-   
     }
   };
 
   return (
     <div>
       <Header></Header>
-      <div className="flex gap-6">
+      <div className="flex gap-6 mx-20">
         <Courses handleAddCourse={handleAddCourse}></Courses>
         <Addcourses addCourses={addCourses} addCredit={addCredit} creditRemaining={creditRemaining}></Addcourses>
       </div>

@@ -4,7 +4,7 @@ const Cart = ({course, serialNumber}) => {
     const {course_title, price} = course;
     return (
         <div>
-            <h3 className="">{`${serialNumber}. ${course_title}`}</h3>
+            <h3 className="text-gray-500">{`${serialNumber}. ${course_title}`}</h3>
              
         </div>
     );

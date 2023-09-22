@@ -2,14 +2,14 @@
     {
       "image": "https://i.ibb.co/b24kGDK/1.png",
       "course_title": "Introduction to C Programming",
-      "description": "A beginner-friendly course that covers the fundamentals of programming using the C programming language.",
+      "description": "A beginner-friendly course that covers the fundamentals of programming using the C programming language.It also called mother language of programming",
       "price": 8499,
       "credit_hours": 1
     },
     {
       "image": "https://i.ibb.co/1bCJd64/3.png",
       "course_title": "Introduction to Algorithms",
-      "description": "Dive into the world of algorithms and data structures. This course will equip you with the knowledge to design and analyze efficient algorithms.",
+      "description": "Dive into the world of algorithms and data structures. This course will equip you with the knowledge to design and analyze efficient algorithms.That help your for problem solving",
       "price": 12699,
       "credit_hours": 2
     },
