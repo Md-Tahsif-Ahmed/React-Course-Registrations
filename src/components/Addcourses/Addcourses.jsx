@@ -5,7 +5,7 @@ import Cart from '../Cart/Cart';
 const Addcourses = ( {addCourses, addCredit, creditRemaining, totalPrice} ) => {
      
     return (
-        <div> 
+        <div className=''> 
             <div className="card w-80 bg-base-100 flex flex-col shadow-xl">
                 <div className="p-10">
                     <h1 className='font-bold text-blue-500 pb-2'>Credit Remaining {creditRemaining} hour</h1>

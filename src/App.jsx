@@ -34,8 +34,7 @@ const App = () => {
             progress: undefined,
             theme: "colored",
             });
-        }     
-         
+        }         
         else{
           setCreditRemaining(newCreditRemaining);
             }
@@ -70,11 +69,11 @@ const App = () => {
   return (
     <div className='bg-slate-50'>
       <Header></Header>
-      <div className="flex gap-6 mx-20 my-11">
-        <Courses handleAddCourse={handleAddCourse}></Courses>
+      <div className="space-y-6 md:space-y-0 mx-12 md:flex md:flex-row-reverse md:mx-10 lg:flex md:gap-6 lg:mx-20 mt-11 pb-8">
         <Addcourses addCourses={addCourses} addCredit={addCredit} creditRemaining={creditRemaining} totalPrice={totalPrice}></Addcourses>
+        <Courses handleAddCourse={handleAddCourse}></Courses>
+        <ToastContainer />
       </div>
-      <ToastContainer />
     </div>
   );
 };
