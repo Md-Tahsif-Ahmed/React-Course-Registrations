@@ -12,7 +12,6 @@ const App = () => {
   const [addCredit, setAddCredit] = useState(0);
   const [creditRemaining, setCreditRemaining] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
-
   const handleAddCourse = (course_data) => {
     if (!addCourses.some((course) => course === course_data)) {
       const newAddCourse = [...addCourses, course_data];
@@ -24,11 +23,8 @@ const App = () => {
         setTotalPrice(newTotalPrice);
         // Credit Remaining calculation
         const newCreditRemaining = 20 - newCredit;
-        if(newCreditRemaining != 0){
-          setCreditRemaining(newCreditRemaining);
-         }
-        else{
-          toast.warn('Credit Remaining will not be 0 !', {
+        if(newCreditRemaining < 0){
+          toast.warn('Credit Remaining will not be less than 0 !', {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -38,9 +34,12 @@ const App = () => {
             progress: undefined,
             theme: "colored",
             });
-        }
-        
-      }
+        }     
+         
+        else{
+          setCreditRemaining(newCreditRemaining);
+            }
+          }
       else{
         toast.warn('Credit can not exceed 20 !', {
           position: "top-center",
